@@ -147,7 +147,7 @@ export default function StopLanding() {
           "BUY THE TOP" GUY
         </h2>
         <p className="mt-1 text-[#1a1a1a]/80 text-sm md:text-base tracking-wide">
-          GQsefQc5YPEI2wkMnYMxD8RqIwrRX7f9iFgpBjNpBAGS
+          "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
         </p>
         <div className="mt-6 flex justify-center">
           <button
@@ -532,7 +532,7 @@ function ChartModal({ onClose }: { onClose: () => void }) {
             </div>
             <div className="mt-4 rounded-xl border-2 border-black bg-[#0a0a0a] overflow-hidden">
               <iframe
-                src="https://www.gmgn.cc/kline/sol/GQsefQc5YPEI2wkMnYMxD8RqIwrRX7f9iFgpBjNpBAGS"
+                src="https://www.gmgn.cc/kline/sol/xxxxxxxxxxxxxxxxxxxxxxxxxxx"
                 className="w-full h-[70vh]"
                 loading="lazy"
                 referrerPolicy="no-referrer"
@@ -549,7 +549,7 @@ function ChartModal({ onClose }: { onClose: () => void }) {
 // ===== BUY MODAL (same frame style) =====
 function BuyModal({ onClose }: { onClose: () => void }) {
   const [copied, setCopied] = useState(false)
-  const addr = "GQsefQc5YPEI2wkMnYMxD8RqIwrRX7f9iFgpBjNpBAGS"
+  const addr = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose()
@@ -603,7 +603,7 @@ function BuyModal({ onClose }: { onClose: () => void }) {
                   <button onClick={copyAddr} className="rounded-full bg-black text-white px-3 py-1.5 text-sm font-semibold">
                     {copied ? "Copied!" : "Copy"}
                   </button>
-                  <a href="https://jup.ag/tokens/GQsefQc5YPEI2wkMnYMxD8RqIwrRX7f9iFgpBjNpBAGS" target="_blank" rel="noopener noreferrer" className="rounded-full border-2 border-black bg-white px-3 py-1.5 text-sm font-semibold">
+                  <a href="https://jup.ag/tokens/xxxxxxxxxxxxxxxxxxxxxxxxxxx" target="_blank" rel="noopener noreferrer" className="rounded-full border-2 border-black bg-white px-3 py-1.5 text-sm font-semibold">
                     Open Jup
                   </a>
                 </div>
